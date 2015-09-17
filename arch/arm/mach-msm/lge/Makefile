@@ -48,6 +48,7 @@ obj-$(CONFIG_MACH_MSM8X10_W5N_VDF_EU) += board-8610-w5n-vdf-eu.o board-8610-w5n-
 obj-$(CONFIG_MACH_MSM8X10_W5N_GLOBAL_COM) += board-8610-w5n-global-com.o board-8610-w5n-global-com-gpiomux.o
 obj-$(CONFIG_MACH_MSM8X10_W5_GLOBAL_COM) += board-8610-w5-global-com.o board-8610-w5-global-com-gpiomux.o
 obj-$(CONFIG_MACH_MSM8X10_W55_GLOBAL_COM) += board-8610-w55-global-com.o board-8610-w55-global-com-gpiomux.o
+obj-$(CONFIG_MACH_MSM8X10_W55N_GLOBAL_COM) += board-8610-w55n-global-com.o board-8610-w55n-global-com-gpiomux.o
 obj-$(CONFIG_MACH_MSM8X10_W5DS_GLOBAL_COM) += board-8610-w5ds-global-com.o board-8610-w5ds-global-com-gpiomux.o
 obj-$(CONFIG_MACH_MSM8X10_W55DS_GLOBAL_COM) += board-8610-w55ds-global-com.o board-8610-w55ds-global-com-gpiomux.o
 obj-$(CONFIG_MACH_MSM8X10_W5TS_OPEN_SCA) += board-8610-w5ts-open-sca.o board-8610-w5ts-open-sca-gpiomux.o

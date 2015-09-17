@@ -332,6 +332,13 @@ config MACH_MSM8X10_W55_GLOBAL_COM
         help
           Support for the Qualcomm MSM8610 W55 Global Common device.
 
+config MACH_MSM8X10_W55N_GLOBAL_COM
+        depends on ARCH_MSM8610
+        select MACH_LGE
+        bool "MSM8610 W55N Global Common"
+        help
+          Support for the Qualcomm MSM8610 W55N Global Common device.
+
 config MACH_MSM8X10_W5DS_GLOBAL_COM
         depends on ARCH_MSM8610
         select MACH_LGE
